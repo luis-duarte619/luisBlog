@@ -1,0 +1,19 @@
+<div class="table">
+  <thead>
+    <th scope ="col">#</th>
+    <th scope ="col">Name</th>
+    <th scope ="col">Blog Title</th>
+    <th scope ="col">Blog Content</th>
+
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let emp of employees; let i =index">
+      <td>{{ i + 1}}</td>
+      <td>{{emp.name}}</td>
+      <td>{{emp.email}}</td>
+      <td>{{emp.salary}}</td>
+
+    </tr>
+  </tbody>
+</div>>
